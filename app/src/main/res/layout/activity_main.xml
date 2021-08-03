@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ayushi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="-20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingTop="4dp"
+        android:paddingRight="40dp"
+        android:text="Happy Birthday sweet sister Ayushi Bansal  "
+        android:textColor="#E8EB0E"
+        android:textSize="27sp" />
+
+    <TextView
+        android:layout_width="287dp"
+        android:layout_height="123dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-37dp"
+        android:layout_marginBottom="-24dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="20dp"
+        android:text="From Mukul Bhaiya "
+        android:textColor="#050CF4
+
+"
+        android:textSize="26sp" />
+
+</RelativeLayout>
